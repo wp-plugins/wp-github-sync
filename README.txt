@@ -1,9 +1,9 @@
 === WordPress <--> GitHub Sync ===
-Contributors: BenBalter, JamesDiGioia  
+Contributors: benbalter, JamesDiGioia  
 Tags: github, git, version control, content, collaboration, publishing  
 Requires at least: 3.8  
 Tested up to: 4.1  
-Stable tag: 1.0.0  
+Stable tag: 1.0.1  
 License: GPLv2  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -146,6 +146,10 @@ See [the contributing documentation](CONTRIBUTING.md) for details.
 == Changelog ==
 
 This change log follows the [Keep a Changelog standards](http://keepachangelog.com/). Versions follows [Semantic Versioning](http://semver.org/).
+
+= [1.0.1] =
+
+* Remove closure to enable PHP 5.2 compatibility (thanks @pdclark!)
 
 = [1.0.0] =
 
