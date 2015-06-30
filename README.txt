@@ -3,7 +3,7 @@ Contributors: benbalter, JamesDiGioia
 Tags: github, git, version control, content, collaboration, publishing  
 Requires at least: 3.8  
 Tested up to: 4.1  
-Stable tag: 1.0.1  
+Stable tag: 1.0.2  
 License: GPLv2  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -147,6 +147,11 @@ See [the contributing documentation](CONTRIBUTING.md) for details.
 
 This change log follows the [Keep a Changelog standards](http://keepachangelog.com/). Versions follows [Semantic Versioning](http://semver.org/).
 
+= [1.0.2] =
+
+* Hide password-protected posts from being exported to GitHub
+* Create post slug if WordPress hasn't created it yet (affects draft exporting)
+
 = [1.0.1] =
 
 * Remove closure to enable PHP 5.2 compatibility (thanks @pdclark!)
@@ -156,4 +161,6 @@ This change log follows the [Keep a Changelog standards](http://keepachangelog.c
 * Initial release
 * Supports full site sync, Markdown import/export, and custom post type & status support
 
+  [1.0.2]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.0.2
+  [1.0.1]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.0.1
   [1.0.0]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.0.0
